@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;  
+  }
+head{
+    width: 20%;
+}
+
+body{
+    width: auto;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    height: 40px;
+    border: 3px solid;
+    text-align:center;
+}
+p{
+    text-align: center;
+    padding: 30px;
+}
+
+em strong{
+    color: #948854;
+}
+#mision{
+    font-size: 20px;
+}
+.diferenciales{
+text-align: left;
+}
+h2{
+    text-align: center;
+}
+.items{
+    color: #e7ec85;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+}
+.imagenDiferenciales{
+    width: 50%;
+    border: 3px solid #948854;
+}

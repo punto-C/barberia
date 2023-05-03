@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+
+<body>
+    <header>
+        <div class="caja">
+          <h1><img src="logo-blanco.png" alt="Logo de la barberia "></h1>
+            <nav>
+              <ul>
+                <li><a href="indexbarberia.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+              </ul>            
+            </nav>
+        </div>
+    </header>
+
+    <main class="cajaContacto">
+      <form>
+        <label for="nombreApellido">Nombre y Apellido</label>
+        <input type="text" id="nombreApellido" class="input-padron" required>        
+
+        <label for="correoElectronico">Correo electronico</label>
+        <input type="email" id="correoElectronico"class="input-padron"required placeholder="email@dominio.com">
+
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono"class="input-padron"required placeholder="(XX) XXXX XXXX">
+        
+        <label for="mensaje">Mensaje</label>
+        <textarea cols="70" rows="10" id="mensaje"class="input-padron"required></textarea>
+        
+        <fieldset>
+             <legend class="metodosc" >Métodos de contacto</legend>
+                  <label for="radio-email"><input type="radio" name="contacto" value="formulario" id="radio-email">Email</label>
+                  <label for="radio-telefono"><input type="radio" name="contacto" value="formulario" id="radio-telefono">Telefono</label>
+                  <label for="radio-whatsapp"><input type="radio" name="contacto" value="formulario" id="radio-whatsapp" checked> Whatsapp</label>
+        </fieldset>
+
+
+       <fieldset>
+            <legend>Horario en que desea ser atendido</legend>
+              <select>
+                  <option>Mañana</option>
+                  <option>Tarde</option>
+                  <option>Noche</option>
+              </select>        
+       </fieldset>
+
+           <label class="checkbox"><input type="checkbox" checked>Le gustaria recibir noticias y novedades de nuestra barbería</label>
+        
+           <input type="submit" value="Enviar formulario" class="enviar">
+
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Día</th>
+          <th>Horario</th>
+        </tr>
+      </thead>
+      <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>10:00-13:00 / 14:00-20:00 pm</td> 
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <td>10:00-13:00 / 14:00-20:00 pm</td> 
+            </tr>
+            <tr>
+              <td>Miércoles</td>
+              <td>10:00-13:00 / 14:00-20:00 pm</td> 
+            </tr>
+            <tr>
+               <td>Jueves</td>
+               <td>10:00-13:00 / 14:00-20:00 pm</td> 
+           </tr> 
+      </tbody>
+
+    </table>
+
+
+    </main>
+
+</body>
+<footer>
+  <img src="logo-blanco.png" alt="Logo de la barberia ">
+  <p>&copy Copyright BarberiAl</p>
+</footer>
+</html> 
