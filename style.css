@@ -85,10 +85,6 @@ body{
     margin-top: 50px;
 }
 
-footer{
-    text-align: center;
-    background-image: url(bg.jpg);
-}
 
 .cajaContacto{
     width: 940px;
@@ -115,7 +111,6 @@ form label, form p{
 .checkbox{
     margin: 20px 0;
 }
-
 
 
 
@@ -158,8 +153,7 @@ td,th{
     width: 100%;
 }
 .principal{
-    padding: 3m 3m 0;
-
+    padding: 10px;
 }
 .titulo-centralizado{
     text-align: center;
@@ -181,6 +175,7 @@ td,th{
     float:right;
     margin: 0 0 0 20px;
 }
+
 .mapa{
     padding: 3em;    
 
@@ -220,7 +215,83 @@ td,th{
     border: 3px solid #948854;
 }
 .video:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
+}
+.redes{
+    padding: 100px;
+}
+.titulo-redes{
+    text-align: center;
+    font-size: 2em;
+    margin: 2% 0 1em;
+    clear: right;
+}
+
+  /* iconos de redes */
+  .wrapper{
+    position: relative;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    }
+
+.wrapper ul{
+    list-style: none;
+    }
+    
+ .wrapper ul li {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #d8e2dc;
+    float: left;
+    transition: all 0.5s ease;
+    }
+    
+    .wrapper ul li .fa{
+    color: #d8e2dc;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    }
+    .wrapper ul li:hover.github{
+        border: 5px solid #1877F2;
+        box-shadow:0 0 15px #1877F2;
+        transition: all 0.5s ease;
+        }
+        
+       .wrapper ul li:hover .fa-github{
+        color: #7d9de0;
+        text-shadow: 0 0 15px #7d9de0;
+        transition: all 0.5s ease;
+        }
+        
+    .wrapper ul li:hover.linkedin{
+        border:5px solid #0277B5;
+        box-shadow: 0 0 15px #0277B5;
+        transition: all 0.5s ease;
+        }
+        .wrapper ul li:hover .fa-linkedin{
+        color: #51aee0;
+        text-shadow: 0 0 15px #51aee0;
+        transition: all 0.5s ease;
+        }
+    .wrapper ul li:hover.youtube{
+        border:5px solid #FF0000;
+        box-shadow: 0 0 15px #FF0000;
+        transition: all 0.5s ease;
+        }
+        .wrapper ul li:hover .fa-youtube{
+        color: #eb9797;
+        text-shadow: 0 0 15px #eb9797;
+        transition: all 0.5s ease;
+        }
+footer{
+    text-align: center;
+    background-image: url(bg.jpg);
 }
 
 /* medidas para dispositivos */
